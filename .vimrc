@@ -1,11 +1,18 @@
-set rtp+=~/.vim/vundle.git/
-call vundle#rc()
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
 
-Bundle 'inkpot'
-Bundle 'taglist.vim'
-Bundle 'SrcExpl'
-Bundle 'The-NERD-tree'
-Bundle 'Trinity'
+call neobundle#rc(expand('~/.vim/bundle/'))
+
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+NeoBundle 'inkpot'
+NeoBundle 'taglist.vim'
+NeoBundle 'SrcExpl'
+NeoBundle 'The-NERD-tree'
+NeoBundle 'Trinity'
+
+NeoBundleCheck
 
 syntax on
 
