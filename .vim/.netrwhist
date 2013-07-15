@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/takashi/.oh-my-zsh'
+let g:netrw_dirhist_2='/Users/takashi/.oh-my-zsh/tools'
+let g:netrw_dirhist_3='/Users/takashi/.oh-my-zsh'
+let g:netrw_dirhist_4='/Users/takashi/.oh-my-zsh/tools'
+let g:netrw_dirhist_5='/Users/takashi/src/apache/httpd-2.4.3'
+let g:netrw_dirhist_6='/Users/takashi/src/apache/httpd-2.2.23'
+let g:netrw_dirhist_7='/Users/takashi/src/apache/httpd-2.2.23/os'
+let g:netrw_dirhist_8='/Users/takashi/src/apache/httpd-2.2.23/os/unix'
